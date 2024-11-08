@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "org.example.grpc";
+
+service ToDoService{
+  rpc CreateTask(Task) returns(TaskResponse);
+  rpc ReadTask(Task) returns(TaskResponse);
+  rpc UpdateTask(Task) returns(TaskResponse);
+  rpc DeleteTask(Task) returns(TaskResponse);
+  rpc ListTasks(Empty) returns(TaskList);
+}
+
+message Task{
+  string taskID = 1;
+  string description = 2;
+}
+
+message TaskResponse{
+  string responseMessage = 1;
+}
+
+message TaskList{
+  repeated Task tasks = 1;
+}
+
+message Empty{
+
+}
