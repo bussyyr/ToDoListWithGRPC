@@ -1,6 +1,6 @@
 # ToDo List Project
 
-This project is a simple ToDo list application built using gRPC. The primary purpose of this project is to gain a better understanding of gRPC, a high-performance, open-source RPC (Remote Procedure Call) framework.
+This project is a simple ToDo List Application built using gRPC. The primary purpose of this project is to gain a better understanding of gRPC, a high-performance, open-source RPC (Remote Procedure Call) framework.
 
 ## Project Overview
 
