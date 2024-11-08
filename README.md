@@ -18,7 +18,7 @@ The ToDo list application allows users to add, view, update, and delete tasks. I
 
 - [gRPC](https://grpc.io/): High-performance RPC framework
 - [Protocol Buffers](https://developers.google.com/protocol-buffers): Data serialization tool
-- [Java]: Server and client applications
+- [Java](https://www.java.com/): Server and client applications
 
 ## Installation
 
